@@ -4,7 +4,12 @@
 
 Vless & Vmess: 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Aebastiane/vxkteo) 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Aebastiane/tooksee) 
+
+
+[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?template=https://github.com/Aebastiane/tooksee) 
+
+
 
 **Risk of account blocking for abuse!**
 
