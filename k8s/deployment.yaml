@@ -1,34 +1,34 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: book
+  name: boek
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: book
+      app: boek
   template:
     metadata:
       labels:
-        app: book
+        app: boek
     spec:
       containers:
       - image: okteto.dev/book:latest
-        name: book
+        name: boek
         ports:
         - containerPort: 8080
         env:
         - name: PORT
           value: "8080"
         - name: ProxySite
-          value: "mirror.umd.edu"
+          value: "icook.tw"
         - name: Vless_UUID
-          value: "95ec1cd2-85a2-4f4b-8c1c-4f1e9cc840a1"
+          value: "c8df609b-8795-4821-9454-af66b7c4841a"
         - name: Vless_Path
-          value: "/app"
+          value: "/c8df609b-8795-4821-9454-af66b7c4841a"
         - name: Vmess_UUID
-          value: "95ec1cd2-85a2-4f4b-8c1c-4f1e9cc840a1"
+          value: "7a050060-ad04-45b4-8ad6-b354d0c0e3b2"
         - name: Vmess_Path
-          value: "/add"
+          value: "7a050060-ad04-45b4-8ad6-b354d0c0e3b2"
         - name: Share_Path
           value: "$Share_Path"
